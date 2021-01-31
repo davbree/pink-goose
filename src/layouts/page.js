@@ -9,7 +9,7 @@ export default class Page extends React.Component {
         return (
             <Layout {...this.props}>
             <article className="page">
-                <p>hey</p>
+                <h>hey</p>
               <div className="container container--md">
                 <header className="page__header">
                   <h1 className="page__title">{_.get(this.props, 'page.frontmatter.title', null)}</h1>
